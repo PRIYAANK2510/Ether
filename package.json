@@ -51,9 +51,9 @@
         "path": "./themes/generated/flux-theme.json"
       },
       {
-        "label": "Ether One Dark",
+        "label": "Ether Onyx",
         "uiTheme": "vs-dark",
-        "path": "./themes/generated/one-dark-theme.json"
+        "path": "./themes/generated/onyx-theme.json"
       },
       {
         "label": "Ether Veil",

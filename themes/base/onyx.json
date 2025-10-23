@@ -1,5 +1,5 @@
 {
-  "name": "One Dark",
+  "name": "Onyx",
   "type": "dark",
   "test": false,
   "darkestBackground": "#181818",
@@ -7,11 +7,11 @@
   "inputBackground": "#1f1f1f",
   "panelBackground": "#181818",
   
-  "primaryForeground": "#dfdfdf",
-  "editorForeground": "#656565",
+  "primaryForeground": "#cccccc",
+  "editorForeground": "#808080",
   "mutedForeground": "#808080",
   
-  "accentPrimary": "#dfdfdf",
+  "accentPrimary": "#1A84D4",
   
   "comment": "#707070",
   "syntaxRed": "#556FB6",
@@ -25,27 +25,27 @@
   "errorColor": "#a94b67",
   "warningColor": "#b4927a",
   "infoColor": "#73B3E4",
-
+ 
   "gitAdded": "#499f71",
-  "gitModified": "#6E99BA",
+  "gitModified": "#73B3E4",
   "gitDeleted": "#a94b67",
-  "gitConflicting": "#1A84D4",
-  "gitIgnored": "#303030",
-
-  "terminalBlack": "#101010",
-  "terminalBrightBlack": "#2a2a2a",
-  "terminalRed": "#556FB6",
-  "terminalBrightRed": "#6E99BA",
+  "gitConflicting": "#b4927a",
+  "gitIgnored": "#707070",
+  
+  "terminalBlack": "#181818",
+  "terminalBrightBlack": "#707070",
+  "terminalRed": "#a94b67",
+  "terminalBrightRed": "#c15d7d",
   "terminalGreen": "#499f71",
-  "terminalBrightGreen": "#5FB784",
+  "terminalBrightGreen": "#5ab585",
   "terminalYellow": "#b4927a",
-  "terminalBrightYellow": "#c9a48b",
+  "terminalBrightYellow": "#caa78e",
   "terminalBlue": "#73B3E4",
-  "terminalBrightBlue": "#89C1EE",
-  "terminalMagenta": "#a94b67",
-  "terminalBrightMagenta": "#b75c77",
+  "terminalBrightBlue": "#8bc4ed",
+  "terminalMagenta": "#556FB6",
+  "terminalBrightMagenta": "#6a83c7",
   "terminalCyan": "#83918E",
-  "terminalBrightCyan": "#95A6A3",
-  "terminalWhite": "#cccccc",
-  "terminalBrightWhite": "#e0e0e0"
+  "terminalBrightCyan": "#9aa8a5",
+  "terminalWhite": "#dfdfdf",
+  "terminalBrightWhite": "#f0f0f0"
 }
