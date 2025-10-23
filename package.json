@@ -1,0 +1,75 @@
+{
+  "name": "ether",
+  "version": "2.0.0",
+  "displayName": "Ether",
+  "description": "Beautiful, carefully crafted VS Code color themes generated from minimal base color definitions",
+  "publisher": "Priyaank",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PRIYAANK2510/Ether"
+  },
+  "engines": {
+    "vscode": "^1.60.0",
+    "node": ">=16.0.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "color-theme",
+    "dark-theme",
+    "radiance"
+  ],
+  "type": "module",
+  "bin": {
+    "ether-generate": "./bin/generate.js"
+  },
+  "scripts": {
+    "start": "node bin/generate.js && node scripts/update-manifest.js",
+    "watch": "nodemon --watch themes/base --watch lib --exec \"npm start\"",
+    "lint": "eslint lib/**/*.js bin/**/*.js scripts/**/*.js",
+    "lint:fix": "eslint lib/**/*.js bin/**/*.js scripts/**/*.js --fix",
+    "format": "prettier --write \"**/*.{js,json,md}\"",
+    "format:check": "prettier --check \"**/*.{js,json,md}\"",
+    "publish:prepare": "npm start && npm run lint && npm run format",
+    "publish:extension": "npm run publish:prepare && vsce package && vsce publish",
+    "package": "vsce package",
+    "prestart": "echo '🎨 Starting theme generation...'",
+    "poststart": "echo '✨ Theme generation complete!'"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Ether Ash",
+        "uiTheme": "vs-dark",
+        "path": "./themes/generated/ash-theme.json"
+      },
+      {
+        "label": "Ether Flux",
+        "uiTheme": "vs-dark",
+        "path": "./themes/generated/flux-theme.json"
+      },
+      {
+        "label": "Ether One Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/generated/one-dark-theme.json"
+      },
+      {
+        "label": "Ether Veil",
+        "uiTheme": "vs-dark",
+        "path": "./themes/generated/veil-theme.json"
+      }
+    ]
+  },
+  "dependencies": {
+    "colord": "^2.9.3"
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^2.22.0",
+    "eslint": "^8.55.0",
+    "eslint-config-prettier": "^9.1.0",
+    "nodemon": "^3.0.2",
+    "prettier": "^3.1.1"
+  }
+}

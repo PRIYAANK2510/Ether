@@ -1,0 +1,12 @@
+node_modules/
+themes/generated/
+dist/
+*.log
+.DS_Store
+.vscode/
+.idea/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.eslintcache

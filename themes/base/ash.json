@@ -1,0 +1,51 @@
+{
+  "name": "Ash",
+  "type": "dark",
+  "test": false,
+  "darkestBackground": "#181818",
+  "editorBackground": "#1f1f1f",
+  "inputBackground": "#1f1f1f",
+  "panelBackground": "#181818",
+  
+  "primaryForeground": "#dfdfdf",
+  "editorForeground": "#656565",
+  "mutedForeground": "#808080",
+  
+  "accentPrimary": "#dfdfdf",
+  
+  "comment": "#707070",
+  "syntaxRed": "#B09388",
+  "syntaxBlue": "#947DB9",
+  "syntaxGreen": "#91BB96",
+  "syntaxYellow": "#AF89A8",
+  "syntaxPurple": "#b8b8b8",
+  "syntaxOrange": "#81A1BC",
+  "syntaxCyan": "#909090",
+  
+  "errorColor": "#C53D3D",
+  "warningColor": "#D89E09",
+  "infoColor": "#2B69B6",
+  
+  "gitAdded": "#41C47A",
+  "gitModified": "#E3CA4E",
+  "gitDeleted": "#E74C4C",
+  "gitConflicting": "#a78bfa",
+  "gitIgnored": "#404040",
+
+  "terminalBlack": "#181818",
+  "terminalBrightBlack": "#3a3a3a",
+  "terminalRed": "#B09388",
+  "terminalBrightRed": "#C19E91",
+  "terminalGreen": "#91BB96",
+  "terminalBrightGreen": "#A5C8A9",
+  "terminalYellow": "#AF89A8",
+  "terminalBrightYellow": "#C19BB9",
+  "terminalBlue": "#947DB9",
+  "terminalBrightBlue": "#A894C6",
+  "terminalMagenta": "#b0b0b0",
+  "terminalBrightMagenta": "#c4c4c4",
+  "terminalCyan": "#81A1BC",
+  "terminalBrightCyan": "#95B2CB",
+  "terminalWhite": "#dfdfdf",
+  "terminalBrightWhite": "#e6e6e6"
+}
