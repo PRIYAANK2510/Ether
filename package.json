@@ -2,8 +2,12 @@
   "name": "ether",
   "version": "2.0.0",
   "displayName": "Ether",
-  "description": "Beautiful, carefully crafted VS Code color themes generated from minimal base color definitions",
+  "description": "Beautiful, carefully crafted VS Code color themes generated from minimal base color definitions.",
   "publisher": "Priyaank",
+  "author": {
+    "name": "Priyaank"
+  },
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/PRIYAANK2510/Ether"
@@ -12,19 +16,16 @@
     "vscode": "^1.60.0",
     "node": ">=16.0.0"
   },
-  "categories": [
-    "Themes"
-  ],
+  "categories": ["Themes"],
   "keywords": [
     "theme",
     "color-theme",
     "dark-theme",
-    "radiance"
+    "vscode-theme",
+    "ether"
   ],
+  "icon": "assets/logo.png",
   "type": "module",
-  "bin": {
-    "ether-generate": "./bin/generate.js"
-  },
   "scripts": {
     "start": "node bin/generate.js && node scripts/update-manifest.js",
     "watch": "nodemon --watch themes/base --watch lib --exec \"npm start\"",
@@ -34,6 +35,7 @@
     "format:check": "prettier --check \"**/*.{js,json,md}\"",
     "publish:prepare": "npm start && npm run lint && npm run format",
     "publish:extension": "npm run publish:prepare && vsce package && vsce publish",
+    "publish:update": "npm run publish:prepare && vsce publish patch",
     "package": "vsce package",
     "prestart": "echo '🎨 Starting theme generation...'",
     "poststart": "echo '✨ Theme generation complete!'"
@@ -62,6 +64,15 @@
       }
     ]
   },
+  "files": [
+    "themes/",
+    "assets/",
+    "bin/",
+    "scripts/",
+    "lib/",
+    "package.json",
+    "README.md"
+  ],
   "dependencies": {
     "colord": "^2.9.3"
   },
