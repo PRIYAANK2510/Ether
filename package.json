@@ -1,6 +1,6 @@
 {
   "name": "ether",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "displayName": "Ether",
   "description": "Beautiful, carefully crafted VS Code color themes generated from minimal base color definitions.",
   "publisher": "Priyaank",
@@ -67,10 +67,8 @@
     ]
   },
   "files": [
-    "themes",
-    "assets",
-    "scripts",
-    "lib",
+    "themes/generated/**",
+    "assets/**",
     "package.json",
     "README.md"
   ],
