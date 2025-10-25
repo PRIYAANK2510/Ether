@@ -6,13 +6,13 @@
   "editorBackground": "#18181f",
   "inputBackground": "#18181f",
   "panelBackground": "#121217",
-  
+
   "primaryForeground": "#cccccc",
   "editorForeground": "#676775",
   "mutedForeground": "#676775",
-  
+
   "accentPrimary": "#7c7cbd",
-  
+
   "comment": "#707070",
   "syntaxRed": "#4e75c2",
   "syntaxBlue": "#9697d4",
@@ -21,17 +21,17 @@
   "syntaxPurple": "#7171b0",
   "syntaxOrange": "#b4927a",
   "syntaxCyan": "#83918E",
-  
+
   "errorColor": "#a94b67",
   "warningColor": "#b4927a",
   "infoColor": "#9697d4",
- 
+
   "gitAdded": "#499f71",
   "gitModified": "#9697d4",
   "gitDeleted": "#a94b67",
   "gitConflicting": "#b4927a",
   "gitIgnored": "#676775",
-  
+
   "terminalBlack": "#121217",
   "terminalBrightBlack": "#676775",
   "terminalRed": "#a94b67",

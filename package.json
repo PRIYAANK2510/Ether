@@ -16,7 +16,9 @@
     "vscode": "^1.60.0",
     "node": ">=16.0.0"
   },
-  "categories": ["Themes"],
+  "categories": [
+    "Themes"
+  ],
   "keywords": [
     "theme",
     "color-theme",
@@ -64,15 +66,6 @@
       }
     ]
   },
-  "files": [
-    "themes/",
-    "assets/",
-    "bin/",
-    "scripts/",
-    "lib/",
-    "package.json",
-    "README.md"
-  ],
   "dependencies": {
     "colord": "^2.9.3"
   },
