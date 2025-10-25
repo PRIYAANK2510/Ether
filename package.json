@@ -66,6 +66,14 @@
       }
     ]
   },
+  "files": [
+    "themes",
+    "assets",
+    "scripts",
+    "lib",
+    "package.json",
+    "README.md"
+  ],
   "dependencies": {
     "colord": "^2.9.3"
   },
